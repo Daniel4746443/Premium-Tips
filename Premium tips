@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html>
+
+  <cabeça>
+
+    <meta charset="UTF-8">
+
+    <title>Venda de Grupos de Sinais</title>
+
+    <estilo>
+
+      corpo {
+
+        background-image: url('https://pt.m.wikipedia.org/wiki/Ficheiro:Cristiano_Ronaldo_WC2022_-_01.jpg');
+
+      }
+
+    </estilo>
+
+  </head>
+
+  <corpo>
+
+    <cabeçalho>
+
+      <h1>Venda de Grupos de Sinais</h1>
+
+    </header>
+
+    <nav>
+
+      <ul>
+
+        <li><a href="#sobre">Sobre</a></li>
+
+        <li><a href="#planos">Planos</a></li>
+
+        <li><a href="#contato">Contato</a></li>
+
+      </ul>
+
+    </nav>
+
+    <principal>
+
+      <seção id="sobre">
+
+        <h2>Sobre Nós</h2>
+
+        <p>Nós fornecemos grupos de sinais precisos e aguardamos para ajudá-lo a tomar decisões controladas de negociação.</p>
+
+      </section>
+
+      <section id="planos">
+
+        <h2>Nossos Planos</h2>
+
+        <ul>
+
+          <li>
+
+            <h3>Plano Básico</h3>
+
+            <p>Inclui X sinais por semana por Y preço.</p>
+
+          </li>
+
+          <li>
+
+            <h3>Plano Premium</h3>
+
+            <p>Inclui Y sinais por semana por Z preço.</p>
+
+          </li>
+
+        </ul>
+
+      </section>
+
+      <section id="contato">
+
+        <h2>Contato</h2>
+
+        <form action="enviar_mensagem.php" method="post">
+
+          <label for="nome">Nome:</label>
+
+          <input type="text" id="nome" name="nome">
+
+          <label for="email">E-mail:</label>
+
+          <input type="email" id="email" name="email">
+
+          <label for="mensagem">Mensagem:</label>
+
+          <textarea id="mensagem" name="mensagem"></textarea>
+
+          <input type="enviar" value="Enviar">
+
+        </form>
+
+      </section>
+
+    </main>
+
+    <rodapé>
+
+      <p>Direitos autorais &cópia; 2023 Venda de Grupos de Sinais</p>
+
+    </rodapé>
+
+  </body>
+
+</html>
